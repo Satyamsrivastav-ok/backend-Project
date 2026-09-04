@@ -2,7 +2,7 @@
   "name": "chai-backend",
   "version": "1.0.0",
   "description": "this is a backend project.",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -12,5 +12,8 @@
     "backend"
   ],
   "author": "Satyam srivastav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.9.6"
+  }
 }
